@@ -1,0 +1,40 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Django
+*.log
+db.sqlite3
+.env
+
+# Static files
+/static/
+
+# Media files
+/media/
+
+# Virtual environment
+venv/
+pipenv/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Local development settings
+local_settings.py
+
+# Ignore secret key in development
+*.secret_key
+
+# Ignore database configuration
+*.sqlite3
+
+# Ignore Docker related files
+# Dockerfile
+# docker-compose.yml
